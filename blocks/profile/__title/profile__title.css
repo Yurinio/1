@@ -11,21 +11,21 @@
     overflow: hidden;
 }
 @media (max-width: 725px) {
-    .profile__title{
-    font-size: 30px;
-    line-height: 42px;
-    max-width: 270px;
+    .profile__title {
+        font-size: 30px;
+        line-height: 42px;
+        max-width: 270px;
     }
 }
 @media (max-width: 650px) {
-    .profile__title{
-    max-width: 230px;
+    .profile__title {
+        max-width: 220px;
     }
 }
 @media (max-width: 425px) {
-.profile__title {
-    font-size: 28px;
-    line-height: 41px;
-    max-width: 215px;
-}
+    .profile__title {
+        font-size: 28px;
+        line-height: 41px;
+        max-width: 215px;
+    }
 }

@@ -10,9 +10,9 @@
         gap: 28px 0;
         flex-direction: column;
     }
-    }
-@media (max-width: 425px) {
-.profile {
-    padding-top: 42px;
 }
+@media (max-width: 425px) {
+    .profile {
+        padding-top: 42px;
+    }
 }

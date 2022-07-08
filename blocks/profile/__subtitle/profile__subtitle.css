@@ -10,11 +10,15 @@
     white-space: nowrap;
     overflow: hidden;
 }
-@media (max-width: 425px) {
-.profile__subtitle {
-    font-size: 14px;
-    line-height: 26px;
-    margin: 0 auto;
-    max-width: 250px;
+@media (max-width: 550px) {
+    .profile__subtitle {
+        max-width: 240px;
+    }
 }
+@media (max-width: 425px) {
+    .profile__subtitle {
+        font-size: 14px;
+        line-height: 26px;
+        margin: 0 auto;
+    }
 }

@@ -1,8 +1,8 @@
-.popup__close{
+.popup__close {
     width: 32px;
     height: 32px;
     position: absolute;
-    top:-40px;
+    top: -40px;
     right: -40px;
     transition: 1s all;
     overflow: hidden;
@@ -13,14 +13,14 @@
     padding: 0;
     margin: 0;
 }
-.popup__close:hover{
-    opacity: .6;
+.popup__close:hover {
+    opacity: 0.6;
 }
-@media (max-width: 550px){
-.popup__close {
-    top:-36px;
-    right: 0;
-    width: 20px;
-    height: 20px;
-}
+@media (max-width: 550px) {
+    .popup__close {
+        top: -36px;
+        right: 0;
+        width: 20px;
+        height: 20px;
+    }
 }

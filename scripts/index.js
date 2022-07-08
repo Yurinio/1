@@ -8,7 +8,6 @@ const jobInputContent = document.querySelector('.profile__subtitle')
 const nameValue = document.getElementById('name')
 const jobValue = document.getElementById('job')
 
-
 editbutton.addEventListener('click', openPopup)
 сlosePopupButton.addEventListener('click', сlosePopup)
 
@@ -28,14 +27,5 @@ function formSubmitHandler(event) {
     jobInputContent.textContent = jobValue.value
     сlosePopup()
 }
-popup.addEventListener('click', (event) => {
-    if (!event.defaultPrevented) {
-        сlosePopup()
-    }
-}, false)
-
-document.querySelector('.popup__container').addEventListener('click', (event) => {
-    event.preventDefault()
-})
 
 formElement.addEventListener('submit', formSubmitHandler); 

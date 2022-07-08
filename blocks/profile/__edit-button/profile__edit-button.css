@@ -19,9 +19,9 @@
     }
 }
 @media (max-width: 425px) {
-.profile__edit-button {
-    margin: 0 0 11px 0;
-    max-width: 18px;
-    max-height: 18px;
-}
+    .profile__edit-button {
+        margin: 0 0 11px 0;
+        max-width: 18px;
+        max-height: 18px;
+    }
 }
