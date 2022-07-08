@@ -1,6 +1,5 @@
 .profile__button {
     overflow: hidden;
-    border: none;
     background: url(../../../images/__button.svg) center no-repeat;
     background-size: 22px;
     cursor: pointer;
